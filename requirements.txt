@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy
+networkx
+python-dotenv
+pyvis
+flipside==0.2.1

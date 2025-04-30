@@ -1,0 +1,49 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore notebooks
+*.ipynb
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+ENV/
+top-traders-hackathon/
+
+# Ignore dotenv and secrets
+.env
+.env.*
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore Streamlit config
+.streamlit/
+
+# Ignore PyCharm or VSCode project files
+.idea/
+.vscode/
+
+# Optional: ignore generated HTML files
+*.html
+
+# Ignore data and cache files
+*.csv
+*.parquet
+*.pkl
+*.db
+*.sqlite3
+
+# Keep your actual project code and config
+!/streamlit_app.py
+!/graph.py
+!/queries.py
+!/requirements.txt
+!/README.md
