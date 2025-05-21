@@ -51,6 +51,8 @@ FS_API_KEY=your_flipside_api_key_here
 streamlit run streamlit_app.py
 
 📁 File Structure
+
+```bash
 .
 ├── queries.py             # SQL query builders for Solana and EVM chains
 ├── graph.py               # PyVis graph visualization
@@ -58,15 +60,19 @@ streamlit run streamlit_app.py
 ├── requirements.txt
 ├── .env                   # Your API key (not included in repo)
 └── README.md
+```
 
 ## Requirements
 Minimal working dependencies:
+
+```bash
 pandas
 streamlit
 pyvis
 python-dotenv
 networkx
 flipside
+```
 
 ## Credits
 
