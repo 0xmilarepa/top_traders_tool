@@ -45,10 +45,15 @@ pip install -r requirements.txt
 
 ## Environment Variables
 Create a .env file in the root directory of the project and add your Flipside API key:
+
+```bash
 FS_API_KEY=your_flipside_api_key_here
+```
 
 ## Running the App
+```bash
 streamlit run streamlit_app.py
+```
 
 📁 File Structure
 
