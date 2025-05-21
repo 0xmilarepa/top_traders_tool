@@ -8,7 +8,7 @@ from graph import plot_trader_bubblemap
 from datetime import date, datetime
 
 # Load API key
-load_dotenv()  # Make sure this is called
+load_dotenv()
 api_key = os.getenv("FS_API_KEY")
 print(f"API Key loaded: {'Yes' if api_key else 'No'}")
 flipside = Flipside(api_key, "https://api-v2.flipsidecrypto.xyz")
